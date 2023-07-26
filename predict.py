@@ -23,7 +23,7 @@ eng_vectorization = TextVectorization(
     max_tokens=vocab_size, output_mode="int", output_sequence_length=sequence_length,
 )
 fin_vectorization = TextVectorization(
-    max_tokens=vocab_size, output_mode="int", output_sequence_length=sequence_length,
+    max_tokens=vocab_size, output_mode="int", output_sequence_length=sequence_length+1,
 )
 
 
